@@ -68,7 +68,6 @@ console.log((c < d) && (d !== e));
 console.log((c > d) || (d > c));
 console.log(!c);
 
-
 (c>d) ? console.log('Greater') : console.log('Not Fret');
 
 
