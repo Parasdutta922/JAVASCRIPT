@@ -69,3 +69,21 @@ dailyActivities3.shift();
 
 console.log(dailyActivities3); // ['eat', 'sleep']
 
+// Working of JavaScript Arrays
+
+let arr = ['h','e'];
+let arr1 = arr;
+arr1.push('i');
+
+console.log(arr);
+console.log(arr1);
+
+// you can also store values by passing a named key in an array.
+
+
+let arrr = ['h', 'e'];
+arrr.name = 'John';
+
+console.log(arrr); // ["h", "e"]
+console.log(arrr.name); // "John"
+console.log(arrr['name']); // "John"
